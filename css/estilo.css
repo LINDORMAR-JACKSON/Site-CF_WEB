@@ -1,0 +1,459 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+}
+
+/* Inicio da Area Menu */
+
+#cabecalho{
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+    background: #198754;
+    display: flex;
+}
+
+
+.container-fluid img {
+      padding: 0 10px 0 10px;
+      width: 100%;
+}
+
+.logo1{
+    height: 12vh;
+    margin-top: 2%;
+}
+
+.logo2{
+    margin-top: 15px;
+    height: 14vh;
+    margin-left: 15px;
+}
+
+.nave{
+   float: left;
+}
+
+.container-fluid a {
+    text-decoration: none;
+    transition: color 0,8s;
+    color: #ffffff;
+    display: flex;
+    font-family: "Lobster", cursive;
+    font-size: 1.5rem;
+}
+
+#a-links{
+    margin-top: 1%;
+    display: flex;
+    margin-right: 3%;
+    justify-content: right;
+
+}
+
+.p-2 a:hover{
+    color: #198754;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 100%;
+    border: #198754 3px solid;
+}
+
+.p-2 a{
+    background-color: #198754;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 100%;
+    border: 10px solid ;
+    margin-left: 180px;
+}
+
+#bt1 a:visited{
+    color: #01b360;
+    background: #ffffff;
+}
+
+
+/* Fim da Area Menu */
+
+/* Inicio do Carrosel */
+
+.bi-arrow-left-circle-fill {
+    color:white;
+    font-size: 45px;
+
+}
+
+.bi-arrow-right-circle-fill{
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+}
+
+.carousel-inner img{
+      height: 83vh;
+}
+
+.carousel-caption h1 p{
+    padding-bottom: 230px;
+}
+
+.carousel-caption h1{
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.carousel-caption p {
+       color: rgb(255, 255, 255);
+       font-size: 2.0rem;
+       font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Fim do Carrosel */
+
+/* Inicio das Frutas */
+
+.container-xl{
+    width: 100%;
+    height: 100%;
+}
+
+.container-xl h2 {
+      color: #ffffff;
+      font-family: "Lobster" , cursive;
+      font-size: 3rem;
+}
+
+.card img {
+    height: 280px;
+    width: 286px;
+}
+
+.card h5{
+    font-family: "Lobster" , cursive;
+}
+
+.card-text {
+    text-align: justify;
+}
+
+.card p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+}
+
+.card-sv {
+    background-color: #ffffff;
+    width: 100%;
+    height: 280px;
+    margin: 60px 0 35px 0;
+    border-radius: 12px;
+    border: 1px solid rgb(145, 145, 145);
+}
+
+.card-sv h3{
+    font-family: "Lobster" , cursive;
+}
+
+.card-sv img{
+      height: 278px;
+      width: 100%;
+      border-top-left-radius: 12px;
+      border-bottom-left-radius: 12px;
+}
+
+.card-sv p {
+     font-family: Arial, Helvetica, sans-serif;
+     text-align: justify;
+     margin-right: 25px;
+     font-size: 1.1rem;
+     margin-top: 15px;
+}
+
+/* Fim das Frutas */
+
+/* Inicio da Area Counteudo */
+
+.conteudo{
+    background-color: #eaaf00;
+    opacity: 1.5px;
+    height: auto;
+    width: 1891px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+.conteudo h1 {
+    margin-right: 25px;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Lobster" , cursive;
+}
+
+.img1 {
+    width: 50%;
+    height: 250px;
+    margin-left: 180px;
+    border-radius: 5px;
+    border: 1px solid rgb(145, 145, 145);
+}
+
+.img2 {
+    width: 50%;
+    height: 250px;
+    margin-left: 180px;
+    border-radius: 5px;
+    border: 1px solid rgb(145, 145, 145);
+}
+
+.h-v{
+    margin-left: 100px;
+}
+
+.conteudo h5{
+    font-family: "Lobster" , cursive;
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 8px;
+}
+
+
+/* Fim da Area Counteudo */
+
+/* Inicio da Area Footer */
+
+footer{
+    background-color: #198754;
+    color: #ffffff;
+    padding-bottom: 100px;
+    display: flex;
+    padding-top: 5px;
+    height: 160px;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.g-ender{
+    padding-top: 10px;
+}
+
+.g-ender h2{
+    width: 310px;
+    font-family: "Lobster" , cursive;
+}
+
+.g-ender p{
+    padding-left: 10px;
+    text-align: center;
+    width: 320px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ender{
+    padding-left: 10px;
+    margin-right: 50px;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.ender img{
+    width: 34px;
+    height: 34px;
+    padding-bottom: 5px;
+}
+
+.sobre-nos{
+    margin-right: -180px;
+    margin-top: 50px;
+    margin-left: 90px;
+}
+
+.sobre-nos h2{
+     font-size: 1.3rem;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+.sobre-nos h4{
+    text-align: center;
+    font-size: 1.0rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.rs{
+    margin-right: 80px;
+    margin-left: 200px;
+    margin-top: 15px;
+}
+
+.title-rs{
+     font-size: 1.0rem;
+     font-family: "Lobster" , cursive;
+     text-align: center; 
+     background-color: #ffffff;
+     color: #198754;
+     padding-right: 10px;
+     border-radius: 10px;
+     padding-left: 10px;
+}
+
+
+.icone{
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.icone a{
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+.icone a:hover{
+    color: #c2c2c2;
+}
+
+.icone i{
+    font-size: 1.5rem;
+}
+
+.bi-whatsapp{
+    padding: 0 20px 0 20px;
+}
+
+.bi-facebook{
+    padding: 0 20px 0 20px;
+}
+
+.bi-youtube{
+    padding: 0 20px 0 20px;
+}
+
+.bi-linkedin{
+    padding: 0 20px 0 20px;
+}
+
+.bi-instagram{
+    padding: 0 20px 0 20px;
+}
+
+/* Fim da Area Footer */
+
+
+/* Inicio da Pagina Fruts */
+
+/* Area do Fruits */
+
+.card-frutas {
+    background-color: #ffffff;
+    width: 100%;
+    height: 260px;
+    margin: 60px 0 35px 0;
+    border-radius: 10px;
+    border: 1px solid rgb(145, 145, 145);
+}
+
+.card-frutas img{
+    height: 258px;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.card-frutas p {
+   font-family: Arial, Helvetica, sans-serif;
+   text-align: justify;
+   font-size: 1.1rem;
+   margin-top: 15px;
+   margin-left: 3%;
+   margin-right: 3%;
+}
+
+.card-frutas h3{
+    font-family: "Lobster" , cursive;    
+}
+
+.card-frutas a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn-success {
+    float: left;
+    margin-left: 3%;
+}
+
+
+
+/* Fim da Pagina Fruts */
+
+/* Inicio da Pagina Suco */
+
+#bt2 a:visited{
+    color: #01b360;
+    background: #ffffff;
+}
+/*
+.card-video {
+    background-color: #ffffff;
+    width: 1165px;
+    height: 280px;
+    margin: 60px 0 35px 0;
+    border-radius: 12px;
+    border: 1px solid rgb(145, 145, 145);
+}
+
+.card-video iframe{
+
+} */
+
+.card-sucos iframe{
+    width: 100%;
+    height: 50vh;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+
+.card-sucos {
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    margin: 60px 0 35px 0;
+    border-radius: 10px;
+    border: 1px solid rgb(145, 145, 145);
+}
+
+.description{
+    width: auto;
+    height: 50%;
+}
+
+.description p {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 1.5rem;
+   margin-top: 15px;
+   width: 650px;
+   text-align: justify;
+}
+
+.description h3{
+    margin-top: 5px;
+    font-family: "Lobster" , cursive;    
+}
+
+.description h1{
+    font-family: "Lobster" ,cursive;
+}
+
+/*Fim da Pagina Suco*/
